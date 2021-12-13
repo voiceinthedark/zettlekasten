@@ -1,8 +1,8 @@
-<img src="attachments/foam-icon.png" width=100 align="left">
+<img src="attachments/logo.png" width=200 align="left">
 
 # Foam
 
-**👋 Welcome to your new Foam Knowledge Base!**
+**⚡ Welcome to your new Foam Knowledge Base! 👨‍💻**
 
 # My Knowledge Base web
 

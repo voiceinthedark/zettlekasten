@@ -1,5 +1,7 @@
 # Blogs app backend
 
+#javascript, #expressjs, #nodejs, #mongodb, #mongoose, #debug
+
 > Working on a Blogs app backend
 
 - The extraction of user object into a middleware to be attached to the request pipeline, doesn't seem to work.
@@ -7,7 +9,7 @@
   - It seems that the page request is running before the token extractor even starts!
 
 > I have fixed it!
-> The problem was that I was calling one middleware `tokenExtractor` globally, while I was calling the `userExtractor` locally. the solution was to chain them locally instead.
+>> The problem was that I was calling one middleware `tokenExtractor` globally, while I was calling the `userExtractor` locally. the solution was to chain them locally instead.
 
 ```javascript
 // app.use(tokenExtractor);
@@ -46,11 +48,10 @@ const userExtractor = async (request, response, next) => {
 };
 ```
 
-> Few notes to mention
+### Few notes to mention
 
 - Applying authentication middleware to local wide router, will break down fetching of data.
   - Better to assign middleware to method-wide requests e.g POST
 
 
 
-#javascript, #expressjs, #nodejs, #mongodb, #mongoose, #debug
