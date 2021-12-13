@@ -8,7 +8,12 @@ and rant about stuff not working mostly.
 
 > Tasks will be stored in their respective page [[tasks]]
 
-> Regarding Notes app
+> 100 Days of code will go here:
+
+[[100-days-of-code]]
+[[100-days-tasks]]
+
+> Regarding Blogs app
 
 - [[Notes app backend]]
 
