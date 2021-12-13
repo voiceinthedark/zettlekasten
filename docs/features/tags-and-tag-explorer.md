@@ -1,5 +1,5 @@
 ---
-tags: my-tag1 my-tag2
+tags: foam foam-settings
 ---
 
 # Tags and Tag Explorer
