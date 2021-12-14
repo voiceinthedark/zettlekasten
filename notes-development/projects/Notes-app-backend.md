@@ -1,6 +1,6 @@
 # Blogs app backend
 
-#javascript, #expressjs, #nodejs, #mongodb, #mongoose, #debug
+#javascript #expressjs #nodejs #mongodb #mongoose #debug
 
 > Working on a Blogs app backend
 

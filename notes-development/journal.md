@@ -1,6 +1,6 @@
 # Development Journal
 
-#journal, #web-development, #react, #nodejs, #expressjs
+#journal #web-development #react #nodejs #expressjs
 
 > This will be my development journal, I will add notes 
 and rant about stuff not working mostly.
