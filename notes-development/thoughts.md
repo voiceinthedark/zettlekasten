@@ -10,3 +10,13 @@ Incorporating the [zettelkasten](https://zettelkasten.de/introduction/) method i
 >The true magic of a Zettelkasten, when compared to ordinary note-taking systems, comes from the heavy emphasis on connection. Each new Zettel needs to be placed in some relationship to another Zettel. [ZettelKasten-introduction][1]
 
 [1]: <https://zettelkasten.de/introduction/#putting-the-pieces-together>
+
+
+## solving create-react-app
+
+`npm uninstall -g create-react-app`
+
+then ->
+
+`npm install -g create-react-app`
+
