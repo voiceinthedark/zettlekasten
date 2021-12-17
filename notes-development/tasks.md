@@ -12,6 +12,8 @@
 - [ ] Learn Redux
   - [ ] Learn redux toolkit
   - [ ] learn redux-react
+- [ ] Dynamic CSS variables
+
 
 [1]: <reference/Minmax-algorithm-202112141916.md>
 
