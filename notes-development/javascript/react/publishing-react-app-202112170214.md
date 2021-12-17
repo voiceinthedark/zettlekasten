@@ -22,4 +22,5 @@ In order to publish react apps to github pages, I need to follow the following s
 4. Finish the steps by running `npm run deploy`
 5. On github pages set the branch of the serving website to be `gh-pages`
 
-
+### reference
+[publishing to github](https://www.freecodecamp.org/news/deploy-a-react-app-to-github-pages/)
