@@ -1,4 +1,4 @@
-# Snnipets and Trick
+# Snippets and Trick
 
 - JS Array comparing [[Array-Compare-202112141638]]
 - Change css variables [[change-css-variables-202112151155]]
