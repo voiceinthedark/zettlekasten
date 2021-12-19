@@ -12,7 +12,7 @@
     - Fix outstanding environment variables [issue][1]
     - removed erroneously added file to [repo][2]
 - **Day3**
-  - Played with some codewars katas
+  - Played with some [codewars](https://www.codewars.com/) katas
 
 
 [1]: <javascript/react/dotenv-tip-202112162244.md>

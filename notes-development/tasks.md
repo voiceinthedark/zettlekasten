@@ -4,7 +4,7 @@
   - [ ] Create a good UI/UX 
   - [ ] Implement basic PC random movement
   - [ ] Implement AI for the PC [`minmax algorithm`][1]
-- [ ] Create a pomodoro app in `javascript/css/html`
+- [ ] Create a Pomodoro app in `javascript/css/html`
 - [ ] Finish blogs app backend
   - [x] extract user middleware
   - [ ] Fix the tests to run on all code additions
