@@ -13,7 +13,7 @@
   - [ ] Learn redux toolkit
   - [ ] learn redux-react
 - [ ] Dynamic CSS variables
-- [ ] Create a Pomodoro timer
+- [x] Create a Pomodoro timer
 
 
 [1]: <reference/Minmax-algorithm-202112141916.md>

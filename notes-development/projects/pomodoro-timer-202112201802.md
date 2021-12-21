@@ -1,7 +1,7 @@
 ---
 title: pomodoro-timer
 date: 20/12/20
-tags: javascript svg advent-of-js
+tags: javascript svg advent-of-js pomodoro
 ---
 
 # **pomodoro-timer** 202112201802 
