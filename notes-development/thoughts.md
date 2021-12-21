@@ -20,3 +20,5 @@ then ->
 
 `npm install -g create-react-app`
 
+## svg arc filling
+How to decrease the filling of an svg?

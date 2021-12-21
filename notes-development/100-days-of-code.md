@@ -13,7 +13,11 @@
     - removed erroneously added file to [repo][2]
 - **Day3**
   - Played with some [codewars](https://www.codewars.com/) katas
-
+- **Day4**
+  - Playing with some very tricky and hard [katas](https://www.codewars.com/kata/53f40dff5f9d31b813000774/train/python).
+- **Day5**
+  - Creating Pomodoro application 
+  - Fixing the unit testing on the blog app
 
 [1]: <javascript/react/dotenv-tip-202112162244.md>
 [2]: <reference/removing committed files from repo-202112170225.md>
