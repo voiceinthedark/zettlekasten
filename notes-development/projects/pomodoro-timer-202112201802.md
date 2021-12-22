@@ -7,6 +7,10 @@ tags: javascript svg advent-of-js pomodoro
 # **pomodoro-timer** 202112201802 
 > **b908e3**
 
+## Work in Progress
+- [Github repo](https://github.com/voiceinthedark/pomodoro-timer)
+- [Live Demo](https://voiceinthedark.github.io/pomodoro-timer/)
+
 ### **Users should be able to:**  
 
 - [x]  Start the timer by clicking on the start link/button.
@@ -15,5 +19,6 @@ tags: javascript svg advent-of-js pomodoro
 - [x]  Once the timer finishes, the ring should change from green to red and an alert message is passed to the browser.
 
 **More tasks**
-- [ ] Save user settings into localstorage
-- [ ] play a sound when the timer finishes
+- [x] Save user settings into localstorage
+- [x] play a sound when the timer finishes
+- [ ] Add ambient background music when the timer is running.
