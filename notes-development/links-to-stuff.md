@@ -6,3 +6,4 @@
 - [Visual Studio code cheat sheet](../attachments/keyboard-shortcuts-windows.pdf)
 - [Free icons](https://www.flaticon.com/)
 - [Audio wave rendering](http://wavesurfer-js.org/examples/)
+- [Latex wiki](https://en.wikibooks.org/wiki/LaTeX/Mathematics)

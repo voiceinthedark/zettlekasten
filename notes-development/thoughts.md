@@ -21,7 +21,10 @@ then ->
 `npm install -g create-react-app`
 
 ## svg arc filling
-How to decrease the filling of an svg?
+How to decrease the filling of an [svg?][2] [3]
+
+[2]: <https://css-tricks.com/how-to-create-an-animated-countdown-timer-with-html-css-and-javascript/>
+[3]: <javascript/Svg arc manipulation-202112231312.md>
 
 ## Electron react
 An electron react application? Code for web and have it automatically as a desktop application.
