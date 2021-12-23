@@ -22,3 +22,11 @@ then ->
 
 ## svg arc filling
 How to decrease the filling of an svg?
+
+## Electron react
+An electron react application? Code for web and have it automatically as a desktop application.
+Looking into [Electron react boilerplate](https://electron-react-boilerplate.js.org/).
+Speaking of which, learn webpack.
+
+## Capturing my active time
+![](../attachments/2021-12-22-10-46-38.png)

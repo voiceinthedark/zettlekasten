@@ -13,7 +13,6 @@ and rant about stuff not working mostly.
 - 100 days tasks......................[[100-days-tasks]]  
 - Ramblings.................................[[thoughts]]  
 - links...............................[[links-to-stuff]]  
-- Project:Blogs....................[[Notes-app-backend]] 
 - Javascript:Journal.......................[[js-journal]]
 - Git commands..............[[Git commands-202112170235]] 
 

@@ -21,4 +21,6 @@ tags: javascript svg advent-of-js pomodoro
 **More tasks**
 - [x] Save user settings into localstorage
 - [x] play a sound when the timer finishes
-- [ ] Add ambient background music when the timer is running.
+- [x] Add ambient background music when the timer is running.
+- [ ] Make the music bar go into a retractable bar
+- [ ] Make music playlist mode, single song or full playlist on infinite loop
