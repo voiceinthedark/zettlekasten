@@ -33,3 +33,6 @@ Speaking of which, learn webpack.
 
 ## Capturing my active time
 ![](../attachments/2021-12-22-10-46-38.png)
+
+## the problem with JS promises
+How to return data from asynchronous promises?

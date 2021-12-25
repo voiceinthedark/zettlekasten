@@ -21,6 +21,9 @@
 - **Day6**
   - using Revealing Module Pattern [[module pattern-202112221036]]
   - Adding more features to the Pomodoro timer [[pomodoro-timer-202112201802]]
+- **Day7**
+  - Adding more features to the Pomodoro timer, an ambient music media library
+  - Looking into starting a password generator project
 
 [1]: <javascript/react/dotenv-tip-202112162244.md>
 [2]: <reference/removing committed files from repo-202112170225.md>
