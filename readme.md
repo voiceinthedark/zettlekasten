@@ -19,7 +19,6 @@
 
 <a href="https://www.codewars.com/users/voiceinthedark/"><img src='https://www.codewars.com/users/voiceinthedark/badges/large'></a>
 <br>
-
 ![project euler](https://projecteuler.net/profile/voiceinthedark.png)
 
 

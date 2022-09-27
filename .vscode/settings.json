@@ -4,7 +4,11 @@
   "editor.overviewRulerBorder": false,
   "editor.lineHeight": 24,
   "[markdown]": {
-    "editor.quickSuggestions": true
+    "editor.quickSuggestions": {
+      "comments": "on",
+      "strings": "on",
+      "other": "on"
+    }
   },
   "files.defaultLanguage": "markdown",
   "files.exclude": {
@@ -42,7 +46,8 @@
     "titleBar.activeBackground": "#215732",
     "titleBar.activeForeground": "#e7e7e7",
     "titleBar.inactiveBackground": "#21573299",
-    "titleBar.inactiveForeground": "#e7e7e799"
+    "titleBar.inactiveForeground": "#e7e7e799",
+    "commandCenter.border": "#e7e7e799"
   },
   "peacock.color": "#215732",
 }
