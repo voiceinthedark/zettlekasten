@@ -36,3 +36,7 @@ Speaking of which, learn webpack.
 
 ## the problem with JS promises
 How to return data from asynchronous promises?
+
+## Returning to Software Development
+Long Hiatus, Getting back through the [Odin project](https://www.theodinproject.com/).
+Remastering javascript, html and css is obviously a mandatory must.

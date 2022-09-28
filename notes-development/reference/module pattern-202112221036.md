@@ -1,6 +1,6 @@
 ---
 title: module pattern
-date: 22/12/22
+date: 22/12/21
 tags: design-patterns javascript module
 ---
 

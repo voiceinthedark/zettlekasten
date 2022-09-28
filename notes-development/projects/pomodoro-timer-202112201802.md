@@ -1,6 +1,6 @@
 ---
 title: pomodoro-timer
-date: 20/12/20
+date: 20/12/21
 tags: javascript svg advent-of-js pomodoro
 ---
 
@@ -23,6 +23,6 @@ tags: javascript svg advent-of-js pomodoro
 - [x] play a sound when the timer finishes
 - [x] Add ambient background music when the timer is running.
 - [x] Make the music bar go into a retractable bar
-- [ ] Make music single song go on loop
+- [x] Make music single song go on loop
 - [ ] Make playlist mode
 - [ ] Optimize code, songs only load on demand
