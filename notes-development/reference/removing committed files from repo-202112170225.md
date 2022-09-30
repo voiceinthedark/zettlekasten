@@ -1,6 +1,6 @@
 ---
 title: removing committed files from repo
-date: 17/12/17
+date: 17/12/21
 tags: git
 ---
 
