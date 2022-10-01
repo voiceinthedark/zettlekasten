@@ -2,6 +2,7 @@
 
 - [ ] Fix the blogs-app [[Notes-app-backend]]
 - [x] Added a tasks list for development [[tasks]]
+- [ ] ReLearn web programming :/
 - [ ] Learn to Redux
   - [ ] redux toolkit
   - [ ] redux-react
