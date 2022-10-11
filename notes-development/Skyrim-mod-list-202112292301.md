@@ -1,6 +1,6 @@
 ---
 title: Skyrim-mod-list
-date: 29/12/21
+date: 29/12/2021
 tags: skyrim modding
 ---
 
