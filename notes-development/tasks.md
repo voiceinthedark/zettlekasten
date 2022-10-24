@@ -14,7 +14,7 @@
   - [ ] learn redux-react
 - [ ] Dynamic CSS variables
 - [ ] Finish Odin Project Curriculum
-  - [ ] relearn foundations
+  - [x] relearn foundations
   - [ ] Learn Full stack javascript
     - [ ] Learn advanced HTML and CSS
     - [ ] Learn NodeJS
