@@ -1,7 +1,7 @@
 ---
 title: module pattern
 date: 22/12/21
-tags: design-patterns javascript module
+tags: design-patterns javascript module-pattern
 ---
 
 # **module pattern** 202112221036 

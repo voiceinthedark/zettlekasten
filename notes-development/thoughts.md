@@ -9,6 +9,7 @@
 - [Returning to Software Development](#returning-to-software-development)
 - [Thinking like a programmer](#thinking-like-a-programmer)
 - [MutationObserver](#mutationobserver)
+- [Concepts of programming](#concepts-of-programming)
 
 ## Zettelkasten method
 
@@ -56,6 +57,12 @@ Remastering javascript, html and css is obviously a mandatory must.
 
 ## MutationObserver
 I solved a problem I had using this library, need to refresh my memory about it.
+
+## Concepts of programming
+
+[How to think like a programmer](https://www.youtube.com/watch?v=azcrPFhaY9k)
+- Think in algorithms and learn algorithms and design patterns
+- 
 
 
 [1]: <https://zettelkasten.de/introduction/#putting-the-pieces-together>
