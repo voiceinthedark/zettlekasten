@@ -2,7 +2,7 @@
 
 # A Web of thoughts
 
-**⚡ Welcome to your new Foam Knowledge Base! 👨‍💻**
+**⚡ Welcome to my Foam Knowledge Base! 👨‍💻**
 
 # My Knowledge Base web
 
