@@ -1,5 +1,8 @@
 # Tasks
 
+- [x] Learn PHP Procedural
+- [ ] Learn PHP OOP
+- [x] Learn Docker Basics
 - [ ] Complete the Tic Tac Toe project in plain vanilla Javascript for the [Odin Project](https://www.theodinproject.com/paths/full-stack-javascript/courses/javascript/lessons/tic-tac-toe)
   - [ ] Create a good UI/UX 
   - [ ] Implement basic PC random movement
