@@ -72,7 +72,6 @@ class DebtCollectionService {
 <?php
 declare(strict_types=1);
 
-
 use App\CollectingServiceAgency;
 use App\DebtCollectionService;
 use App\PrivateCollector;
