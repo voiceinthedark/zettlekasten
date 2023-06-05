@@ -47,7 +47,7 @@ DB::table('users')->insert([
 
 ### update data
 ```php
-$affected = DB::table('users')
+$affected = DB::table('users') 
               ->where('id', 1)
               ->update(['votes' => 1]);
 ```
