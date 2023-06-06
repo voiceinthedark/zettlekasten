@@ -50,4 +50,15 @@
     "commandCenter.border": "#e7e7e799"
   },
   "peacock.color": "#215732",
+  "spellright.language": [
+    "English (American)",
+    "English (British)",
+    "en-US-10-1.",
+    "fr_FR"
+  ],
+  "spellright.documentTypes": [
+    "markdown",
+    "latex",
+    "plaintext"
+  ],
 }
