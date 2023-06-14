@@ -62,7 +62,9 @@ I solved a problem I had using this library, need to refresh my memory about it.
 
 [How to think like a programmer](https://www.youtube.com/watch?v=azcrPFhaY9k)
 - Think in algorithms and learn algorithms and design patterns
-- 
+
+
+
 
 
 [1]: <https://zettelkasten.de/introduction/#putting-the-pieces-together>

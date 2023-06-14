@@ -1,7 +1,8 @@
 # Todo
 
-- [ ] Learn PHP
-- [ ] Learn Laravel
+- [x] Learn PHP
+- [x] Learn Laravel
+  - [ ] Be Proficient in Laravel
 - [ ] Fix the blogs-app [[Notes-app-backend]]
 - [x] Added a tasks list for development [[tasks]]
 - [ ] ReLearn web programming :/
