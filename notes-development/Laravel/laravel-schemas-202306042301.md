@@ -41,6 +41,9 @@ Schema::table('table_name', function(Blueprint $table){
             $table->id();
             $table->string('name');
             $table->string('airline');
+            $table->text('description');
+            $table->boolean('is_active')->default(true);
+            $table->integer('fleet')->nullable();
             $table->timestamps();
         });
     }

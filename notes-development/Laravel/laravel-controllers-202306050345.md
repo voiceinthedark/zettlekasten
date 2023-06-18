@@ -11,6 +11,22 @@ tags: laravel php controller
 
 ## Laravel controller
 
+### Single Action Controllers
+Defining a controller for a single action is simple:
+```php
+// app/Http/Controllers/PostController.php
+namespace App\Http\Controllers;
+use Illuminate\Http\Request;
+use App\Models\Post;
+
+class PostController extends Controller{
+    public function __invoke(){
+        return view('index');
+    }
+}
+```
+Whenever we need a single action controller it's better to use the `__invoke` method.
+
 ### Form request data
 For more complex validations, we use the Form request validation
 
