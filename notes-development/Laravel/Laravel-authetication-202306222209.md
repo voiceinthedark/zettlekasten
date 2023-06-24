@@ -16,7 +16,7 @@ To manually authenticate users we create an Authcontroller; inside the login fun
 
 ```php
 public function login(){
-    validator::make(request()->all(), [
+    validator(request()->all(), [
         'email' => 'required|email',
         'password' => 'required'
     ])->validate();
@@ -52,7 +52,7 @@ public function login(){
     // if the details are validated redirect to the dashboard
     if( auth()->attempt(    
         request()->only('email', 'password'), 
-        $request->filled('remember'))){ // checking if the remember me is checked
+        request()->filled('remember'))){ // checking if the remember me is checked
         return redirect()->route('dashboard');
     }
     return back()->withErrors(['email' => 'Invalid Credentials']);

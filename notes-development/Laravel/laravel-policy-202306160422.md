@@ -29,3 +29,18 @@ Route::middleware('auth:sanctum')->get('/posts/{post}', function (Post $post) {
     return $post;
 })
 ```
+
+Policies can be registered in the AuthServiceProvider in the `$policies` property.
+
+```php
+/**
+     * The policy mappings for the application.
+     *
+     * @var array
+     */
+    protected $policies = [
+        Post::class => PostPolicy::class,
+    ];
+```
+
+
