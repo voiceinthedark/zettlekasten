@@ -2,16 +2,18 @@
 
 - [x] Learn PHP
 - [x] Learn Laravel
-  - [ ] Be Proficient in Laravel
+  - [x] Be Proficient in Laravel
 - [ ] Fix the blogs-app [[Notes-app-backend]]
 - [x] Added a tasks list for development [[tasks]]
-- [ ] ReLearn web programming :/
+- [x] ReLearn web programming :/
+- [ ] Learning Vue
+  - [ ] Quasar for desktop/mobile development
 - [ ] Learn to Redux
   - [ ] redux toolkit
   - [ ] redux-react
   - [ ] configureStore instead of combineReducers
 - [ ] Learn how to create vs macros
-- [ ] Learn how to create vs extensions
+- [x] Learn how to create vs extensions
 - [ ] Learn typescript
 - [ ] Learn webpack
 - [ ] Learn Css modules

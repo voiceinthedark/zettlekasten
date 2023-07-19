@@ -180,3 +180,132 @@ Remember to update the page\_visits\_count value each time a user visits a page.
 Additionally, consider implementing any necessary security measures to prevent unauthorized manipulation of the page\_visits\_count value, such as validating user authentication or implementing rate limiting to avoid counting automated or excessive requests as separate visits.
 
 By implementing these steps, you can effectively track and display the number of page visits or views for each user's profile in your application.
+
+## Following System
+
+To implement a User Following and Followers system in a blogging platform CMS, you can follow these general steps:
+
+1.  Create a User\_Followers Table (Many-to-Many Relationship):
+    
+    -   Fields: follower\_id (foreign key referencing Users table), followed\_user\_id (foreign key referencing Users table)
+    -   This table establishes a many-to-many relationship between users. It allows users to follow other users. The follower\_id represents the user who is following, and the followed\_user\_id represents the user being followed. Both fields serve as foreign keys referencing the primary key in the Users table.
+2.  Enable User Follow and Unfollow Actions:
+    
+    -   Implement functionality that allows users to follow and unfollow other users.
+    -   When a user chooses to follow another user, add a record to the User\_Followers table with the follower\_id and followed\_user\_id.
+    -   When a user chooses to unfollow another user, remove the corresponding record from the User\_Followers table.
+3.  Retrieve Followers and Followed Users:
+    
+    -   Implement methods to retrieve a user's followers and the users they are following.
+    -   You can use queries or Laravel's Eloquent relationships to fetch the relevant data from the User\_Followers table.
+4.  Display User Following and Followers:
+    
+    -   On user profile pages or other relevant sections, display the number of followers and the number of users being followed.
+    -   Retrieve the counts from the User\_Followers table and display them to the user.
+5.  Retrieve Feed or Activity from Followed Users:
+    
+    -   Implement functionality to retrieve and display a feed or activity stream of posts, updates, or other content from the users a user is following.
+    -   Fetch the relevant content from the Posts or other relevant tables where user\_id matches the followed\_user\_id.
+
+By implementing these steps, you can create a User Following and Followers system in your blogging platform CMS. Users will be able to follow other users, view their followers and following counts, and retrieve a personalized feed of content from the users they are following.
+
+## Likes system
+
+To implement a like and dislike system in a blogging platform CMS, where users can check who liked or disliked a post, you can follow these general steps:
+
+1.  Create a Likes Table:
+    
+    -   Fields: like\_id (primary key), post\_id (foreign key referencing Posts table), user\_id (foreign key referencing Users table), like\_status
+    -   This table stores information about likes/dislikes for posts. The like\_id serves as the primary key. Other fields include post\_id, which references the Posts table to associate the like/dislike with a specific post, user\_id, which references the Users table to identify the user who performed the like/dislike, and like\_status, which indicates the type of action (like or dislike) performed by the user.
+2.  Enable Like and Dislike Actions:
+    
+    -   Implement functionality that allows users to like or dislike a post.
+    -   When a user likes a post, add a record to the Likes table with the post\_id, user\_id, and like\_status set to "like."
+    -   When a user dislikes a post, add a record to the Likes table with the post\_id, user\_id, and like\_status set to "dislike."
+3.  Retrieve Likes and Dislikes for a Post:
+    
+    -   Implement methods to retrieve the number of likes and dislikes for a specific post.
+    -   You can use queries or Laravel's Eloquent relationships to count the number of records in the Likes table with like\_status set to "like" or "dislike" for a given post\_id.
+4.  Retrieve Users Who Liked or Disliked a Post:
+    
+    -   Implement functionality to retrieve the users who liked or disliked a specific post.
+    -   Use queries or Laravel's Eloquent relationships to fetch the user\_id values from the Likes table with like\_status set to "like" or "dislike" for a given post\_id.
+    -   Retrieve the corresponding user profiles or display user information based on the user\_id values retrieved.
+5.  Display Likes and Dislikes on Post Pages:
+    
+    -   On post pages or other relevant sections, display the number of likes and dislikes for each post.
+    -   Retrieve the counts from the Likes table and display them to the users.
+    -   Provide a way for users to view the list of users who liked or disliked a post, either by displaying the usernames or by providing a link to a user profile page.
+
+By implementing these steps, you can create a like and dislike system in your blogging platform CMS. Users will be able to like or dislike posts, and the system will track the likes and dislikes along with the users who performed those actions.
+
+Remember to handle any necessary checks, validations, and privacy settings to ensure that users can only perform like or dislike actions once per post and that they can view the user information according to the appropriate privacy settings.
+
+## Comments Like/Dislike System
+
+To add a like and dislike system to comments in a blogging platform CMS, you can follow these general steps:
+
+1.  Create a Comment\_Likes Table:
+    
+    -   Fields: like\_id (primary key), comment\_id (foreign key referencing Comments table), user\_id (foreign key referencing Users table), like\_status
+    -   This table stores information about likes and dislikes for comments. The like\_id serves as the primary key. Other fields include comment\_id, which references the Comments table to associate the like/dislike with a specific comment, user\_id, which references the Users table to identify the user who performed the like/dislike, and like\_status, which indicates the type of action (like or dislike) performed by the user.
+2.  Enable Like and Dislike Actions for Comments:
+    
+    -   Implement functionality that allows users to like or dislike comments.
+    -   When a user likes a comment, add a record to the Comment\_Likes table with the comment\_id, user\_id, and like\_status set to "like."
+    -   When a user dislikes a comment, add a record to the Comment\_Likes table with the comment\_id, user\_id, and like\_status set to "dislike."
+3.  Retrieve Likes and Dislikes for a Comment:
+    
+    -   Implement methods to retrieve the number of likes and dislikes for a specific comment.
+    -   Use queries or Laravel's Eloquent relationships to count the number of records in the Comment\_Likes table with like\_status set to "like" or "dislike" for a given comment\_id.
+4.  Retrieve Users Who Liked or Disliked a Comment:
+    
+    -   Implement functionality to retrieve the users who liked or disliked a specific comment.
+    -   Use queries or Laravel's Eloquent relationships to fetch the user\_id values from the Comment\_Likes table with like\_status set to "like" or "dislike" for a given comment\_id.
+    -   Retrieve the corresponding user profiles or display user information based on the user\_id values retrieved.
+5.  Display Likes and Dislikes on Comment Sections:
+    
+    -   On comment sections or within comment threads, display the number of likes and dislikes for each comment.
+    -   Retrieve the counts from the Comment\_Likes table and display them to the users.
+    -   Provide a way for users to view the list of users who liked or disliked a comment, either by displaying the usernames or by providing a link to a user profile page.
+
+By implementing these steps, you can add a like and dislike system to comments in your blogging platform CMS. Users will be able to like or dislike comments, and the system will track the likes and dislikes along with the users who performed those actions.
+
+Remember to handle any necessary checks, validations, and privacy settings to ensure that users can only perform like or dislike actions once per comment and that they can view the user information according to the appropriate privacy settings.
+
+## Direct Messaging
+
+When implementing a direct messaging system in a Blogging platform CMS, there are a few steps you can follow:
+
+1.  Create a Messages Table:
+    
+    -   Fields: message\_id (primary key), sender\_id (foreign key referencing Users table), recipient\_id (foreign key referencing Users table), content, created\_at, etc.
+    -   This table stores information about the messages exchanged between users. The message\_id serves as the primary key. Other fields include sender\_id and recipient\_id, which reference the Users table to identify the sender and recipient of the message, respectively. Additional fields like content and created\_at can be included to store the message content and timestamp.
+2.  Enable Messaging Actions:
+    
+    -   Implement functionality that allows users to send messages to each other.
+    -   When a user sends a message, create a new record in the Messages table with the sender\_id, recipient\_id, content, and other relevant details.
+    -   Provide a user interface where users can compose messages and select the recipient from their list of contacts.
+3.  Retrieve Messages:
+    
+    -   Implement methods to retrieve and display messages for a specific user.
+    -   Retrieve messages from the Messages table where the sender\_id or recipient\_id matches the user's ID.
+    -   Sort the messages by the created\_at field to display them in chronological order.
+4.  Display Message History:
+    
+    -   On the user interface, display the message history between two users, allowing them to view their past conversations.
+    -   Retrieve messages from the Messages table based on the sender\_id and recipient\_id combination.
+    -   Display the messages in a threaded or chronological format, depending on your design choices.
+5.  Notifications:
+    
+    -   Implement notifications to inform users about new messages received.
+    -   Send a notification to the recipient when a new message is received.
+    -   This can be achieved through various means, such as email notifications, in-app notifications, or real-time notifications using technologies like WebSockets.
+6.  Security and Privacy:
+    
+    -   Implement appropriate security measures to ensure that only authorized users can send and view messages.
+    -   Consider privacy settings, allowing users to control who can send them messages or restricting messaging to specific user roles.
+
+By following these steps, you can implement a direct messaging system in your Blogging platform CMS. Users will be able to send and receive messages, view their message history, and receive notifications for new messages.
+
+Remember to handle any necessary validations, such as checking if the recipient exists or if the sender has permission to send messages, to ensure the system's integrity and security.

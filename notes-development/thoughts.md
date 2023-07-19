@@ -10,6 +10,7 @@
 - [Thinking like a programmer](#thinking-like-a-programmer)
 - [MutationObserver](#mutationobserver)
 - [Concepts of programming](#concepts-of-programming)
+- [Nested Set Tree](#nested-set-tree)
 
 ## Zettelkasten method
 
@@ -62,6 +63,10 @@ I solved a problem I had using this library, need to refresh my memory about it.
 
 [How to think like a programmer](https://www.youtube.com/watch?v=azcrPFhaY9k)
 - Think in algorithms and learn algorithms and design patterns
+
+## Nested Set Tree
+[Nested Set](https://en.wikipedia.org/wiki/Nested_set_model)
+[Hierarichal data in mysql](https://mikehillyer.com/articles/managing-hierarchical-data-in-mysql/)
 
 
 
