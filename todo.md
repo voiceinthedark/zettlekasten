@@ -6,8 +6,9 @@
 - [ ] Fix the blogs-app [[Notes-app-backend]]
 - [x] Added a tasks list for development [[tasks]]
 - [x] ReLearn web programming :/
-- [ ] Learning Vue
+- [x] Learning Vue
   - [ ] Quasar for desktop/mobile development
+  - [ ] Inertiajs
 - [ ] Learn to Redux
   - [ ] redux toolkit
   - [ ] redux-react

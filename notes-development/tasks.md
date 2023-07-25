@@ -19,7 +19,7 @@
 - [ ] Finish Odin Project Curriculum
   - [x] relearn foundations
   - [ ] Learn Full stack javascript
-    - [ ] Learn advanced HTML and CSS
+    - [x] Learn advanced HTML and CSS
     - [ ] Learn NodeJS
     - [ ] Complete Javascript course
 
