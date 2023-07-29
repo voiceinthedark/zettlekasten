@@ -8,12 +8,8 @@
 - [x] ReLearn web programming :/
 - [x] Learning Vue
   - [ ] Quasar for desktop/mobile development
-  - [ ] Inertiajs
-- [ ] Learn to Redux
-  - [ ] redux toolkit
-  - [ ] redux-react
-  - [ ] configureStore instead of combineReducers
-- [ ] Learn how to create vs macros
+  - [x] Inertiajs
+- [x] Learn how to create vs macros
 - [x] Learn how to create vs extensions
 - [ ] Learn typescript
 - [ ] Learn webpack

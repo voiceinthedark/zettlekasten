@@ -34,7 +34,7 @@ class HandleInertiaRequests extends Middleware
 
 ## Accessing shared data
 
-```vue
+```javascript
 <script setup>
 import { computed } from 'vue'
 import { usePage } from '@inertiajs/vue3'
@@ -73,7 +73,7 @@ class HandleInertiaRequests extends Middleware
 
 then we can access it using `$page.props.flash.message`:
 
-```vue
+```javascript
 <template>
   <main>
     <header></header>

@@ -30,7 +30,7 @@ Route::get('/', function () {
 
 Then we can paginate through the data on the client side as a *pagination object*:
 
-```vue
+```javascript
 <script setup>
 import { Link } from "@inertiajs/vue3";
 defineProps({

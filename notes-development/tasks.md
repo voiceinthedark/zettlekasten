@@ -12,17 +12,14 @@
   - [x] extract user middleware
   - [ ] Fix the tests to run on all code additions
   - [ ] Run all tests and fix them
-- [ ] Learn Redux
-  - [ ] Learn redux toolkit
-  - [ ] learn redux-react
-- [ ] Dynamic CSS variables
+- [x] Dynamic CSS variables
 - [ ] Finish Odin Project Curriculum
   - [x] relearn foundations
   - [ ] Learn Full stack javascript
     - [x] Learn advanced HTML and CSS
     - [ ] Learn NodeJS
     - [ ] Complete Javascript course
-
+- [ ] Create a vs code extension as a companion for my markdown driven blog
 
 [1]: <reference/Minmax-algorithm-202112141916.md>
 
