@@ -1,0 +1,20 @@
+# mermaidjs-helper
+
+```mermaid 
+mindmap
+    root((mermaid-helper))
+        [design]
+            insert mermaid graph through palette?
+            capture fenced mermaid code?
+            dropdown menu for mermaid graphs
+            set as a note block inside an md file
+                preview on top
+                code below it
+        (features)
+            insert mermaid graph as code and preview
+            auto detect
+                mermaid fenced block
+                mermaid pre code
+        (functionality)
+
+```

@@ -21,5 +21,6 @@
     - [ ] Complete Javascript course
 - [ ] Create a vs code extension as a companion for my markdown driven blog
 
+
 [1]: <reference/Minmax-algorithm-202112141916.md>
 
