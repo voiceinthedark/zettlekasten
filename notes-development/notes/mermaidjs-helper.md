@@ -1,6 +1,6 @@
 # mermaidjs-helper
 
-```mermaid 
+```mermaid!
 mindmap
     root((mermaid-helper))
         [design]
