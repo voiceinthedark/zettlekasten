@@ -19,7 +19,7 @@
     - [x] Learn advanced HTML and CSS
     - [ ] Learn NodeJS
     - [ ] Complete Javascript course
-- [ ] Create a vs code extension as a companion for my markdown driven blog
+- [x] Create a vs code extension as a companion for my markdown driven blog
 
 
 [1]: <reference/Minmax-algorithm-202112141916.md>

@@ -16,5 +16,4 @@ mindmap
                 mermaid fenced block
                 mermaid pre code
         (functionality)
-
 ```
