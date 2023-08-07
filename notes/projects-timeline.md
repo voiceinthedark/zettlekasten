@@ -1,6 +1,6 @@
 # Projects Timeline
 
-#mermaid #timeline #coding
+#mermaid #timeline #coding #projects
 
 ## Return to coding timeline
 
