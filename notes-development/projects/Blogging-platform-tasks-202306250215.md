@@ -1,7 +1,7 @@
 ---
 title: Blogging-platform-tasks
 date: 25/06/2023
-tags: project blogging-platform
+tags: project blogging-platform tasks
 ---
 
 # **Blogging-platform-tasks** 202306250215 

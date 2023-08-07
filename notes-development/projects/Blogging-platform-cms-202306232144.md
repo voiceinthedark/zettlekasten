@@ -1,7 +1,7 @@
 ---
 title: Blogging-platform-cms
 date: 23/06/2023
-tags: TALL TALL-stack project
+tags: TALL TALL-stack project blog blogging blogging-platform cms laravel livewire alpinejs 
 ---
 
 # **Blogging-platform-cms** 202306232145 

@@ -1,13 +1,11 @@
 ---
 title: Livewire-alpine-roadmap
 date: 21/06/2023
-tags: livewire alpinejs
+tags: livewire alpinejs roadmap
 ---
 
 # **Livewire-alpine-roadmap** 202306212253 
 > **c1de25**
-
-  
 
 # Livewire and Alpinejs roadmap
 
