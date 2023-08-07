@@ -1,6 +1,6 @@
 # Development Journal
 
-> #journal #web-development #react #nodejs #node #expressjs #express #php #git #vue #laravel #livewire #alpinejs
+> #journal #web-development #react #nodejs #node #expressjs #express #php #git #vue #laravel #livewire #alpinejs #software-development
 
 > This will be my development journal, I will add notes 
 and rant about stuff not working mostly.
