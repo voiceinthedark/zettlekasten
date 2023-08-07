@@ -1,4 +1,5 @@
 # mermaidjs-helper
+#project #mermaid #vscode #vscode-extension
 
 ```mermaid!
 mindmap

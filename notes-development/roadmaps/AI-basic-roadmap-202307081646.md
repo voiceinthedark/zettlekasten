@@ -1,7 +1,7 @@
 ---
 title: AI-basic-roadmap
 date: 08/07/2023
-tags: AI artificial-intelligence ML Machine-learning
+tags: AI artificial-intelligence ML Machine-learning roadmap
 ---
 
 # **AI-basic-roadmap** 202307081646 

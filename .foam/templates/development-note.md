@@ -8,6 +8,7 @@ foam_template:
 ---
 title: $FOAM_TITLE
 date: $FOAM_DATE_DATE/$FOAM_DATE_MONTH/$FOAM_DATE_YEAR
+updated_at: $FOAM_DATE_DATE/$FOAM_DATE_MONTH/$FOAM_DATE_YEAR
 tags: ${1}
 ---
 
