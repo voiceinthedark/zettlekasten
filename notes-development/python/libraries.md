@@ -1,4 +1,5 @@
 # Libraries to keep in mind
+#python
 
 - [Rich](https://pypi.org/project/rich/) - Color terminal
 - [Advent of code data](https://pypi.org/project/advent-of-code-data/) - For advent of code challenges

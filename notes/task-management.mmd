@@ -1,0 +1,43 @@
+flowchart TD
+    A[task-management-system] --> B[auth]
+    A --> C[task-management]
+    A --> D[UI/UX]
+    subgraph ui
+        D --> D1[employee board]
+        subgraph emp_board
+            D1 --> D11[check tasks]
+            D1 --> D12[check past tasks]
+        end
+        D --> D2[admin board]
+        subgraph admin_board
+            D2 --> D21[check tasks]
+            D2 --> D22[check past tasks]
+            D2 --> D23[add/remove employee]
+            D2 --> D24[add/remove supervisor]
+            D2 --> D25[add/remove tasks]
+        end
+    end
+    A --> E[Notifications]
+    B --> F[technologies]
+    subgraph tech
+        F --> F1[laravel forge]
+        F --> F2[laravel Sanctum]
+    end
+    B --> G[role]
+    G --> G1[admin]
+    G --> G2[supervisor]
+    G --> G3[employee]
+    subgraph admin
+        G1 --> G11[Add/remove employee]
+        G1 --> G12[Add/remove supervisor]
+        G1 --> G13[Add/remove tasks]
+    end
+    subgraph supervisor
+        G2 --> G21[Add/remove employee]
+        G2 --> G23[Add/remove tasks]
+    end
+    subgraph employee
+        G3 --> G31[Add/remove tasks]
+    end
+
+
